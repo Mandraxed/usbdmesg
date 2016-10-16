@@ -1,0 +1,9 @@
+# proposed shell script program to log dmesg output to usb
+# This would access to the dmesg output of machines under repair where for example no hard drive has been installed
+# or otherwise where no log file can be accessed after the event to show the dmesg output
+# Key considerations are:
+# 1. default time interval between dmesg operations in m/s
+# 2. shell script path to USB
+# 3. Writing over existing dmesg log files already saved to USB to provide critical data at system crash point
+# 4. The program would allow machines to be tested for thermal instability etc whilst preserving a dmesg log file to usb
+
